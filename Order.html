@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Bakery Page</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Thanmahi">
+        <meta name="description" content="View menu and place Order">
+        <link rel="icon" href="order.png" type="text/x-icon">
+        <link rel="stylesheet" href="bakery.css" title="type/css">
+    </head>
+    <header>
+        <h1>Order &#x1F4DD;</h1>
+        <form>
+                <label>1.What do you want to Order</label><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"/>
+                <label>Brownies</label><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"/>
+                <label>Pastries</label><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"/>
+                <label>Cakes</label><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"/>
+                <label>Breads</label><br>
+                <label>2.Quantity of Brownies</label>
+                <input type="number" min="0" max="100"/><br>
+                <label>3.Quantity of Pastries</label>
+                <input type="number" min="0" max="100"/><br>
+                <label>4.Quantity of Cake</label>
+                <input type="number" min="0" max="100"/><br>
+                <label>5.Quantity of Bread</label>
+                <input type="number" min="0" max="100"/><br>
+                <label>6.Total: </label>
+                <input type="number" min="0" /><br>
+            </form>
+    </header>
+    <hr>
+    <main>
+        <h2>Payment</h2>
+        <form>
+           <label for="type">Payment mode</label>
+           <select id="pay" name="money">
+            <option value="">-- Choose Payment Mode --</option>
+            <option value="server1">Gpay</option>
+            <option value="server2">Cash on Delivery</option>
+            <option value="server1">Phonepey</option>
+        </select><br><br> 
+        <label>Address: </label>
+        <input type="text" placeholder="Enter address: "/><br>
+        <label>Phone: </label>
+        <input type="number" placeholder="Enter Phone Number: "/><br>
+        <input type="submit" value="Submit"/><br>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <form>
+            <h2>Feedback: </h2>
+            <textarea></textarea>
+        </form>
+        <a href="project.html">Go to Home Page</a>
+    </footer>
+</html>

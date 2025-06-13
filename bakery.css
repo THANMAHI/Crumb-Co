@@ -1,0 +1,16 @@
+html{
+font-size:22px;
+}
+body{
+    background-color: burlywood;
+    color: rgb(136, 11, 11)
+}
+a{
+color:rgb(62, 72, 82);
+}
+a:visited{
+color:rgb(220, 214, 214);
+}
+a:hover, a:active{
+    color:black
+}
